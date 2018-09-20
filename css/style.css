@@ -1,0 +1,66 @@
+.container{
+        margin-top: 40px;
+}
+/* Star form */
+
+.contact-form{
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+ h2{
+     
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+.contact-form input {
+    
+    font-size: 20px;
+    padding-left: 36px;
+    padding-bottom: 12px;
+}
+
+.astrisk{
+    height: 0;
+    position: relative;
+    float: right;
+    bottom: 40px;
+    right: 8px;
+    color: red;
+    font-size: 18px;
+}
+.contact-form input , 
+.contact-form textarea{
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    
+    height: 100px !important ;
+    font-size: 20px;
+
+}
+
+
+.contact-form .custom-alert{
+    padding: 5px 10px;
+    display: none; 
+    
+}
+
+.contact-form input:not([type='submit']) + i {
+    height: 0;
+    float: left;
+    position: relative;
+    bottom: 36px;
+    left: 10px;
+}
+
+.contact-form input[type='submit'] +i{
+    display: block;
+    color: #f2f2f2;
+    position: relative;
+    bottom: 43px;
+    left: 7px;
+}
+/* End form */
